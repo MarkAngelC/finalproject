@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" href="portfolio-icon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"><span>Mark Castro</span></a>
+        <nav class="navbar" id="navbar">
+            <a href="index.html">Portfolio</a>
+            <a href="about.html">About</a>
+            <a href="education.html">Work Experience & Education</a>
+            <a href="contact.html" class="contact">Contact Me</a>
+        </nav>
+        <div class="hamburger-menu" id="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+
+    <main>
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">Your LinkedIn Profile</a></p>
+
+            <form action="submit_form.php" method="POST">
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="message">Your Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                    <button type="submit">Send Message</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mark Castro. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
