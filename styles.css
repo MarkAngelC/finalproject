@@ -11,10 +11,10 @@ html, body {
 }
 
 :root {
-    --primary-color: rgba(9, 1, 44, 0.818); 
-    --accent-color: red;
-    --background-color: rgb(213, 206, 206);
-    --text-color: white;
+    --primary-color: #000; 
+    --accent-color: #FF0000; 
+    --text-color: #fff; 
+    --background-color: #222; 
 }
 
 /* Header */
@@ -23,8 +23,9 @@ html, body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 25px 10px;
-    background: var(--primary-color);
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
